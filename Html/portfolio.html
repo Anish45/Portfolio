@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		portfolio 
+	</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="Anish portfolio">
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="author" content="Anish Chaudhary">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css"> <!-- we are linking this html with external css-->
+</head>
+<body>
+<header>
+<nav class="nav">                     <!-- we are creating a navigation -->
+	<div class="div1">                 <!-- we are creating a next division -->
+		<div class="div2">                   <!-- we are creating again a next division where h1 is named -->
+			<h1 id="2"><i>MyPortfolio</i></h1> <!-- this is the heading one section  -->
+		</div>
+		<ul class="list">      <!-- this is the unordered list where we can list menu bar accordingly  -->
+			<a href="portfolio.html">     <!--  this is the link for the home page -->
+			<z><li class="present">Home</li></z> 
+		</a>
+			<a href="Research.html">
+				<z><li>Research</li></z> <!-- this is the link for the research page -->
+			</a>
+			<a href="CV.html">  <!-- this is the link for the cv page -->
+			<z><li>CV</li></z>
+		</a>
+		<a href="Blog.html">  <!-- this is the link for the blog page -->
+			<z><li>Blog</li></z>  
+		</a>
+		<a href="Contact.html">  <!-- this is the link for the contact page -->
+			<z><li>Contact</li></z>  
+		</a>
+		</ul>
+	</div>
+</nav>
+</header>
+<div class="mainbody">   <!-- this is a div part which contains the image and the texts wriiten in the right side of the picture -->
+	<div class="mainimage">  <!-- this is the class for the image -->
+	<image>
+	<img src="../images/anish.png" style="margin-left: 30px">  <!-- this is the image -->
+</image></div>
+<div class="caption" >   <!-- this is the div part for the texts written in the right side of the picture -->
+	<span style="margin-top: -524px; font-size: 32px;"><p><arial><b>Hello this is me Anish Chaudhary</b></arial></p>
+	<div id = "this" style="text-align: center;"><p><i>Programmer | Bughunter</i></p></div>
+	<p style="font-size: 35px;"><arial>and welcome to my portfolio &#128523;</arial></p>
+	<p>&#128150; &#128150; &#128150; &#128150; &#128150; &#128150; &#128150; &#128150; &#128150; &#128150; &#128150;</p>
+	<p><i>"A Good Programmer is Someone</i></p><p><i>who always looks both ways before</i></p><p><i>crossing a one-way street."</i></p></span>	
+</div>
+</div>
 
+<div class="ab">        <!-- this is the next div below the above div --> 
+	<div class="pic">   <!-- this div contains the picture and some details about me -->
+		<span><b style="font-size: 20px;">About Me</b></span>
+		<br>
+		<br>
+		<span class="span" style="font-size: 20px;"><i>"Success comes through Hardwork"</i></span>
+		<div><img src="../images/mypic.jpg">
+		</div>
+		<div>
+			<p><b>Name : Anish Chaudhary</p>
+			<p><b>Address : Itahari-8,Sunsari</b></p>
+			<p><b>Contact No. : +9779804391104</b></p>
+			<p><b>Email Id  : kcanish683@gmail.com</b></p>
+		</div>
+	</div>
+	<div class="ab1">  <!-- this is another div inside the div of class ab  which contains the mydescription section -->
+		<div class="ab2">
+		<span><b style="font-size: 20px;">My Description</b></span>
+		<p><i>Hello this is me anish chaudhary who is 18 years old and i am from itahari, Nepal. As a computing student i am very much interested <br><br> in learning about the web technologies. I started learning computer from grade 6 and i was so much interested regarding this field from<br><br>mine small age. I want to learn more about the programming and webtechnologes from my small age. Now after studying computing i am<br><br> able to learn programming languages and about the web technologies. After learning about these technologies i am now more interested<br><br> in programming and Bughunting. I love reesearching about the new technolgies and know how it works. I am also a hardworking student<br><br> who never gives up and is never afraid of failure.</i></p>
+	</div>
+	</div>
+</div>
+<footer>     <!-- this is the  footer section of this page -->
+	<p style="text-align: center;"><b>Anish Chaudhary | &copy All RIGHT RESERVED</b></p>
+</footer>
+<!-- this is the internal java script used for this page -->
+<script type="text/javascript">
+	 	setInterval(
+	 		function() {   
+	 			var randomColor = Math.floor(Math.random()*16777215).toString(16);  //declaring a variable which stores a random number which is converted to string
+	 			document.getElementById('this').style.backgroundColor = "#"+randomColor; // this background colour is changed to the element with id this
+	 		},1000);
+	</script>
+</body>
+</html>

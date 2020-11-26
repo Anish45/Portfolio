@@ -1,0 +1,77 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Contact</title>
+		<!-- we are linking the external css and java script -->
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<script type="text/javascript" src="../javascript/script.js"></script>
+		<style type="text/css">
+				.div .div1 .list .present{
+		color: red;
+		}
+		.body{					/*This is the css property for the whole css*/
+			text-align: center;
+			font-size: 50px;
+		}	
+		.left{
+			flex: 50%;
+			background-color: #F1E7E5;
+		}
+		.right{
+			float: right;
+			margin-top: -555px;
+			margin-right: 100px;
+			background-color: #F1E7E5;
+		}
+		</style>
+	</head>
+	<body>
+	<header>
+	<nav class="nav"> <!-- we are creating a division -->
+		<div class="div1"> <!-- we are creating a next division -->
+			<div class="div2"> <!-- we are creating again a next division where h1 is named -->
+				<h1><i>MyPortfolio</i></h1>
+			</div>
+			<ul class="list">
+				<a href="portfolio.html">
+				<z><li>Home</li></z>
+				</a>
+				<a href="Research.html">
+					<z><li>Research</li></z>
+				</a>
+				<a href="CV.html">
+				<z><li>CV</li></z>
+				</a>
+				<a href="Blog.html">
+				<z><li>Blog</li></z>
+				</a>
+				<a href="Contact.html">
+				<z><li class="present">Contact</li></z>
+				</a>
+			</ul>
+		</div>
+	</nav>
+	</header>
+	<br><br><br>
+	<div class="left">
+	<img src="../images/contact.png" width="60%"; height="60%";> <!-- There is the inline css for the height and width of the picture -->	
+	</div>
+	<div class="right">
+		<form name="myForm" onsubmit="validateForm()">		<!-- This is the form with form name myform -->
+	 		 Name: <input type="text" name="name"><br><br><br><br>
+	  		Address: <input type="text" name="address"><br><br><br><br>
+	 		 Phone no.: <input type="text" name="phone"><br><br><br><br>
+	  		Email id: <input type="text" name="email"><br><br><br>
+	  		<p>Enter a feedback</p>
+	  		<textarea rows="10" cols="30" name="feedback"></textarea>
+	  		<br>
+	  		<p><input type="submit" value="submit"></p>
+		</form>
+	</div>
+	<footer style="background-color: white;">     <!-- this is the  footer section of this page -->
+		<p style="text-align: center;"><b>Contact me at: +977 9862191255</b></p>
+		<p style="text-align: center;"><b>Anish Chaudhary | &copy All RIGHT RESERVED</b></p>
+	</footer>
+	</div>
+	</body>
+	</html>
