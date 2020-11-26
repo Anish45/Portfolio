@@ -1,1 +1,92 @@
+.nav .div1 .div2 h1{ /*div*/    /*setting the css to the element in heading one in div having class div2*/ 
+	padding: 5%;
+	font-size: 30px;
+	margin-left: 5%;
+}
+body{          /*setting the css to the whole body whose margin should be zero*/
+	margin: 0;
+}
+.nav{                /*div*/    /*implementing the css to the nav in the home page and the position is made fixed*/
+	background-color: black;
+	width: 100%;
+	height: 80px;
+	margin-bottom: -30px;
+	position: fixed;
+}
+.div1{       /*the div with class div1 is displayed in block and margin is 0*/
+	display: block;
+	margin: 0%;
+}
+.div2 {  /*this is the div which contain the h1 and it is also dislayed in table , floated right and color is made white*/
+	display: table;
+	float: left;
+	color: white;
+}
+.list{     /*implementing css to the elements with the class list which float the elements to the right and height and font size is given a certain value*/
+	float: right;
+	height: 100%;
+	font-size: 20px;
+}
+.list z{  /*implemening css to the element in z tag inside list class which is displayed in table, floated left and value to height, padding and margin-top is given*/
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+	margin-top: 2%;
+}
+.list z li{  /*implementing css to the li tag which is displayed in table-cell and value for height and color is given*/
+	height: 100%;
+	color: white;
+	display: table-cell;
+}
+.list z li:hover{  /*implementing css for colour change when we hover to the elements in li tag*/
+	color: blue;
+}
+.nav .div1 .list .present{   /*div*/   /* implementing css for the colour to the element in class present*/
+	color: red;
+}
+.ab .pic{  /*implementing css to the element in the pic class which is inside the ab class*/
+	float: left;
+}
+.ab{      /*implementing css to the ab class where margin, width and margin-top is given some value*/
+	margin: auto;
+	width: 98%;
+	margin-top: 1%;
+}
+.pic{    /*implementing css to the pic class where width, background-color, height is given some value*/
+	width: 30%;
+	background-color:#F1E7E5;
+	height: 400px;
+}
+
+.ab1{     /*implementing css to the ab1 class where width, background-color, height is given some value*/
+	width:70%;
+	background-color: #F1E7E5;
+	height: 400px;
+	float: right;
+}
+
+/*.ab1{   implementing css to float right the element of ab1 class
+ 	float: right;
+ }*/
+ .ab2{    /*implementing css to make a gap between the ab1 class and ab2 class by 15px*/
+ 	margin-left: 15px;
+ }
+ .mainbody{  /*implementing css for the width of mainbody class*/
+ 	width: 90%;
+ }
+ .mainbody div img{  /*implementing css for the width of the  image in the div of mainbody class*/
+ 	width: 50%;
+ }
+.caption span{   /*implementing css to the span tag in caption class for font-size, color and floating right*/
+	font-size: 20px;
+	color: black;
+	float: right;
+}
+.mainimage img{   /*implementing css for the top margin of the image in the mainimage class*/
+	margin-top: -15%;
+}
+.pic img{    /*implementing css for the height of the image in the pic class which is inside ab class*/
+	height: 195px;
+}
 
